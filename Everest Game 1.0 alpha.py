@@ -39,10 +39,10 @@ climber_y = 619
 climber_vel_y = 0
 climber_jumping = False
 
-CLIMBER = pygame.image.load('images/climberstanding.png')
-EVEREST_BACKGROUND = pygame.image.load('images/Everest.png')
-EVEREST_LOGO = pygame.image.load('images/Everestlogo.png')
-pygame.mixer.music.load("sounds/Pixel Peeker Polka - faster (1).mp3")
+CLIMBER = pygame.image.load('res/textures/climberstanding.png')
+EVEREST_BACKGROUND = pygame.image.load('res/textures/Everest.png')
+EVEREST_LOGO = pygame.image.load('res/textures/Everestlogo.png')
+pygame.mixer.music.load("res/sounds/Pixel Peeker Polka - faster (1).mp3")
 pygame.display.set_caption("Everest Game 1.0 Alpha")
 
 pygame.display.set_icon(EVEREST_LOGO)
