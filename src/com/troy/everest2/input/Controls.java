@@ -4,7 +4,9 @@ package com.troy.everest2.input;
 public class Controls {
 
 	/** A keybinding that is used to control movements **/
-	public static final KeyBinding NEXT = new KeyBinding(Keyboard.KEY_ENTER);
+	public static final KeyBinding NEXT = new KeyBinding(Keyboard.KEY_ENTER), RIGHT = new KeyBinding(Keyboard.KEY_D),
+		LEFT = new KeyBinding(Keyboard.KEY_A);
+	public static final MouseBinding SELECT = new MouseBinding(1);
 
 	public static void init() {
 

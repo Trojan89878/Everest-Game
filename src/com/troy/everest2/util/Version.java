@@ -4,7 +4,7 @@ package com.troy.everest2.util;
 public class Version {
 
 	/** The version **/
-	public static final int VERSION_MAJOR = 2, VERSION_MINOR = 1, VERSION_PATCH = 0;
+	public static final int VERSION_MAJOR = 2, VERSION_MINOR = 0, VERSION_PATCH = 0;
 
 	/** some info about the version such as Alpha Beta or release **/
 	public static final String VERSION_INFO = "Alpha";

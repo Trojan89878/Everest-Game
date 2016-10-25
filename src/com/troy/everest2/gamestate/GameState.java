@@ -6,6 +6,8 @@ public interface GameState {
 
 	public void render(Graphics g);
 
+	public void postRender(Graphics g);
+
 	public void update(int updateCount);
 
 	public void onStart();

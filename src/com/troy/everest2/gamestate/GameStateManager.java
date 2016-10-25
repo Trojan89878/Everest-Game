@@ -28,6 +28,10 @@ public class GameStateManager {
 		currentState.render(g);
 	}
 
+	public void postRender(Graphics g) {
+		currentState.postRender(g);
+	}
+
 	public void start() {
 		currentState.onStart();
 	}
